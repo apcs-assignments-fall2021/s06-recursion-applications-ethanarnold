@@ -41,7 +41,9 @@ public class Folder implements FileItem {
     // file1 which is size 200, file2 which is size 300, and file3 which is size 150.
     // Then, the size of folder1 = 512 + 128*3 + 200 + 300 + 150 = 1546.
     public int calculateSize() {
-        // YOUR CODE HERE
+        int size = 512;
+        for (FileItem item : items) {
+        }
         return -1;
     }
 
